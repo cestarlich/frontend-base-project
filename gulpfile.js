@@ -4,7 +4,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 
 //style paths
-var sassFiles = 'assets/styles/sass/**/*.scss',
+var sassFiles = 'assets/styles/scss/*.scss',
     cssDest = 'assets/styles/css/';
 
 gulp.task('styles', function(){
@@ -16,3 +16,5 @@ gulp.task('styles', function(){
 gulp.task('watch',function() {
     gulp.watch(sassFiles,['styles']);
 });
+
+gulp.task('default',['watch']);
