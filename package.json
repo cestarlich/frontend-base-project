@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-cached": "~1.1.0",
+    "gulp-exec": "~2.1.1",
+    "gulp-livereload": "~3.8.0",
+    "gulp-sftp": "~0.1.4",
+    "node-notifier": "~4.2.3",
+    "run-sequence": "~1.1.2"
+  }
+}
